@@ -1,0 +1,22 @@
+@import "colors.css";
+
+nav a {
+  color: var(--main-text-black);
+  padding: 14px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border: 2px solid var(--main-text-black);
+  padding: 12px;
+}
+
+nav a:focus {
+  background-color: var(--focus-yellow);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-right: 20rem;
+}

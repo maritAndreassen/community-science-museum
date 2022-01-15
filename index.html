@@ -1,61 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Community Science Museum</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="The home page for Community science museum." />
-    <title>Community Science Museum</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/90297555d7.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
-    <a href="#content">Skip to content</a>
+    <div class="grey-box"></div>
+    <a class="skip-to-content" href="#content">Skip to content</a>
     <header>
       <nav>
         <ul>
-          <li class=""><a href="#">EXLORE</a></li>
-          <li class=""><a href="#">SPACES</a></li>
-          <li class=""><a href="#">EVENTS</a></li>
-          <li class=""><a href="#">VISIT</a></li>
-          <li class=""><a href="#">GET INVOLVED</a></li>
+          <li><a href="#">EXLORE</a></li>
+          <li><a href="#">SPACES</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">VISIT</a></li>
+          <li><a href="#">GET INVOLVED</a></li>
         </ul>
+        <hr class="hr-nav-line" />
       </nav>
-      <hr />
-      <a href="#" class="logo">
-        <img src="" alt="" class="" />
+      <a href="index.html" class="logo">
+        <img src="Icon-mammut.jpg" alt="Icon mammut" class="" />
       </a>
     </header>
     <main id="content">
-      <section>
-        <figure>
-          <img src="images/#" alt="" style="width: 100% (this should go in the css file)" />
+      <section class="flex-container">
+        <figure class="margin-left-none">
+          <img
+            src="images/scientific-main-page.jpg"
+            alt=""
+            style="width: 100% (this should go in the css file)"
+          />
         </figure>
-        <h1>COMMUNITY SCIENCE MUSEUM</h1>
-        <p>
-          Come join us at the Community Science Museum where we’re committed to making science
-          accessible to all.
-        </p>
-        <h2>OPENING HOURS</h2>
-        <p>
-          THUESDAY - THURSDAY: 10:00 - 16:00 FRIDAY: 10:00 -19:00 SATURDAY: 9:00 - 16:00 SUNDAY:
-          9:00 - 13:00
-        </p>
+        <div class="flex-item">
+          <section>
+            <h1>COMMUNITY SCIENCE MUSEUM</h1>
+            <p>
+              Come join us at the Community Science Museum where we’re committed to making science
+              accessible to all.
+            </p>
+          </section>
+          <section>
+            <h2>OPENING HOURS</h2>
+            <p>
+              THUESDAY - THURSDAY: 10:00 - 16:00 FRIDAY: 10:00 -19:00 SATURDAY: 9:00 - 16:00 SUNDAY:
+              9:00 - 13:00
+            </p>
+          </section>
+        </div>
       </section>
-      <section>
+      <section class="grey-background">
         <h2>SPECIAL EVENTS & EXHIBITIONS</h2>
-        <figure>
-          <img src="images/" alt="The museum by night" />
-          <figcaption>Night at the museum</figcaption>
-        </figure>
-        <figure>
-          <img src="images/" alt="t" />
-          <figcaption>Energetica Exhibition on Loan</figcaption>
-        </figure>
-        <figure>
-          <img src="images/" alt="" />
-          <figcaption>Visiting Professor of Aeronautics</figcaption>
-        </figure>
+        <div class="flex-container flex-item-row">
+          <figure>
+            <img src="images/night-at-the-museum.jpg" alt="The museum by night" />
+            <figcaption>Night at the museum</figcaption>
+          </figure>
+          <figure>
+            <img src="images/skelleton.jpg" alt="Energetica Exhibition" />
+            <figcaption>Energetica Exhibition on Loan</figcaption>
+          </figure>
+          <figure>
+            <img src="images/visiting-professor.jpg" alt="Visiting Professor" />
+            <figcaption>Visiting Professor of Aeronautics</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="info-section ">
+        <div class="circle-info-box">
+        <h2>Did you know that</h2>
+        <p>During the school holidays we run
+          special holiday clubs where you can join
+          other children your age to go on a
+          journey of discovery. Each holiday we
+          pick a new theme to explore. To find out
+          more about the holiday club and how you
+          can join, send us a message.</p>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+    </hr>
+    </footer>
   </body>
 </html>
