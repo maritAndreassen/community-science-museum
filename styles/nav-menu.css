@@ -4,6 +4,7 @@ nav a {
   color: var(--main-text-black);
   padding: 14px;
   text-decoration: none;
+  flex-basis: 50rem;
 }
 
 nav a:hover {

@@ -9,12 +9,40 @@
 
 body {
   font-family: "Open Sans", Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.body-container {
   margin: 0 15%;
 }
 
 h1 {
-  font-size: 50px;
-  margin-bottom: 15px;
+  font-size: 2.5rem;
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: bold 1.25rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+a {
+  color: var(--main-text-black);
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:focus {
+  background-color: var(--focus-yellow);
+}
+
+a:active {
+  color: var(--main-text-black);
 }
 
 .grey-box {
@@ -46,9 +74,10 @@ header a {
   display: flex;
   flex-direction: row;
   padding: 10px;
+  justify-content: space-between;
 }
 
-.flex-item {
+.flex-item-column {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
@@ -56,11 +85,7 @@ header a {
 
 .flex-item-row {
   flex-flow: row;
-  justify-content: space-between;
-}
-
-.flex-item-row figure img {
-  height: 28rem;
+  padding: 0 10px;
 }
 
 figure {
@@ -83,7 +108,7 @@ img {
   background-repeat: no-repeat;
   display: flex;
   height: 32rem;
-  margin: 5rem 0;
+  margin: 5rem 0 3rem;
 }
 
 .circle-info-box {
@@ -100,4 +125,26 @@ img {
 
 .circle-info-box h2 p {
   padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+}
+
+.padding-left {
+  padding-left: 1rem;
+}
+
+footer {
+  margin: 10px 0;
+}
+
+.some-icons {
+  margin: 0 20px 20px;
+  font-size: xx-large;
+  text-align: end;
 }
