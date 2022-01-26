@@ -2,14 +2,13 @@
 
 nav a {
   color: var(--main-text-black);
-  padding: 14px;
+  padding: 1rem;
   text-decoration: none;
-  flex-basis: 50rem;
 }
 
 nav a:hover {
   border: 2px solid var(--main-text-black);
-  padding: 12px;
+  padding: 0.8rem;
 }
 
 nav a:focus {
@@ -18,6 +17,8 @@ nav a:focus {
 
 nav ul {
   display: flex;
-  list-style-type: none;
-  padding-right: 20rem;
+}
+
+.nav-seperator {
+  border: 3px solid var(--focus-yellow);
 }

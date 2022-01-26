@@ -1,0 +1,21 @@
+@import "colors.css";
+
+button {
+  align-self: center;
+  background-color: var(--pink);
+  border: 2px solid var(--main-text-black);
+  color: var(--main-text-black);
+  inline-size: fit-content;
+  padding: 12px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: var(--main-background-grey);
+  border: 2px solid var(--main-text-black);
+  padding: 12px;
+}
+
+button:focus {
+  background-color: var(--focus-yellow);
+}
