@@ -8,11 +8,19 @@ nav a {
 
 nav a:hover {
   border: 2px solid var(--main-text-black);
-  padding: 0.8rem;
+  padding: 0.825rem;
 }
 
 nav a:focus {
   background-color: var(--focus-yellow);
+}
+
+.nav-menu-icon {
+  display: none;
+}
+
+.nav-h1 {
+  display: none;
 }
 
 nav ul {
@@ -21,4 +29,60 @@ nav ul {
 
 .nav-seperator {
   border: 3px solid var(--focus-yellow);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  nav {
+    align-items: center;
+    margin: 0 10px;
+  }
+
+  .nav-content {
+    background-color: var(--main-background-grey);
+    padding: 10px;
+  }
+
+  .nav-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-menu-icon {
+    display: block;
+    font-size: xx-large;
+    padding: 10px;
+  }
+
+  nav:hover .nav-seperator {
+    display: block;
+  }
+
+  nav:hover .nav-content {
+    display: block;
+  }
+
+  nav:hover .nav-menu-icon {
+    background-color: var(--focus-yellow);
+    padding: 10px;
+  }
+
+  nav li {
+    padding: 10px;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .nav-seperator {
+    display: none;
+  }
+
+  .nav-h1 {
+    display: block;
+    text-align: end;
+  }
 }

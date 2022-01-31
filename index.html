@@ -11,19 +11,27 @@
   </head>
 
   <body>
-    <div class="grey-box"></div>
+    <div class="grey-box" aria-hidden="true"></div>
     <div class="body-container">
       <a class="skip-to-content" href="#content">Skip to content</a>
       <header>
         <nav>
-          <ul>
-            <li><a href="/pages/explore.html">EXLORE</a></li>
-            <li><a href="/pages/spaces.html">SPACES</a></li>
-            <li><a href="/pages/events.html">EVENTS</a></li>
-            <li><a href="/pages/visit.html">VISIT</a></li>
-            <li><a href="/pages/get-involved.html">GET INVOLVED</a></li>
-          </ul>
-          <hr class="nav-seperator" />
+          <div class="nav-flex-container">
+
+              <i class="fas fa-bars nav-menu-icon" 
+                 aria-haspopup="true"
+                 aria-label="menu icon"></i>
+            
+            <h1 class="nav-h1">COMMUNITY </br>SCIENCE MUSEUM</h1>
+          </div>
+            <ul class="nav-content">
+              <li><a href="/pages/explore.html">EXLORE</a></li>
+              <li><a href="/pages/spaces.html">SPACES</a></li>
+              <li><a href="/pages/events.html">EVENTS</a></li>
+              <li><a href="/pages/visit.html">VISIT</a></li>
+              <li><a href="/pages/get-involved.html">GET INVOLVED</a></li>
+            </ul>
+            <hr class="nav-seperator" />
         </nav>
       </header>
       <main id="content">
@@ -33,7 +41,7 @@
           </figure>
           <div class="flex-item-column">
             <section>
-              <h1>COMMUNITY SCIENCE MUSEUM</h1>
+              <h1 class="main-headline">COMMUNITY SCIENCE MUSEUM</h1>
               <p>
                 Come join us at the Community Science Museum where we’re committed to making science
                 accessible to all.
@@ -79,7 +87,7 @@
               children your age to go on a journey of discovery. Each holiday we pick a new theme to
               explore.
             </p>
-            <button onclick="window.location.href='/pages/explore.html'">Find out more</button>
+            <button class="color-pink" onclick="window.location.href='/pages/explore.html'">Find out more</button>
           </div>
         </section>
       </main>

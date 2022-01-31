@@ -18,12 +18,12 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin: 15px 0;
 }
 
 h2 {
-  font-size: bold 1.25rem;
+  font-size: 1rem;
 }
 
 h3 {
@@ -32,10 +32,12 @@ h3 {
 
 a {
   color: var(--main-text-black);
+  padding: 0 10px 0 0;
 }
 
 a:hover {
   font-weight: bold;
+  padding: 0 2.5px 0 0;
 }
 
 a:focus {
@@ -133,9 +135,22 @@ img {
 }
 
 .some-icons {
-  margin: 0 20px 20px;
   font-size: xx-large;
   text-align: end;
+}
+
+.some-icons i:hover,
+i:focus {
+  color: var(--focus-yellow);
+  margin: 0;
+}
+
+.some-icons a:focus {
+  background-color: var(--white);
+}
+
+.some-icons a:hover {
+  padding: 0 10px 0 0;
 }
 
 .skip-to-content {
@@ -145,4 +160,88 @@ img {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .body-container {
+    margin: 0;
+  }
+
+  .circle-info-box {
+    margin: 80px 5px;
+  }
+
+  header {
+    display: block;
+  }
+
+  .margin-left-none {
+    margin: 0;
+  }
+
+  .main-headline {
+    display: none;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-item-column {
+    justify-content: space-between;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .some-icons {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .body-container {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1429px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .body-container {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (min-width: 1430px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
 }
