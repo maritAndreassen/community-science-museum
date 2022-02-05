@@ -1,6 +1,7 @@
 @import "colors.css";
 @import "nav-menu.css";
 @import "button.css";
+@import "subpages.css";
 
 @font-face {
   font-family: "Open Sans";
@@ -90,6 +91,10 @@ figure {
   text-align: center;
 }
 
+.focus-color {
+  background-color: var(--focus-yellow);
+}
+
 footer {
   margin: 10px 0;
 }
@@ -103,14 +108,9 @@ footer {
 .grey-box {
   background-color: var(--main-background-grey);
   box-shadow: 10px 10px 10px 20px var(--main-background-grey);
-  height: 30px;
-  margin-bottom: 40px;
+  height: 20px;
+  margin-bottom: 1rem;
   width: 100%;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
 }
 
 img {
@@ -218,7 +218,7 @@ ul {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .body-container {
-    margin: 0 5%;
+    margin: 0;
   }
 }
 
