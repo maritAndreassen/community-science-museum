@@ -15,7 +15,7 @@ body {
 }
 
 .body-container {
-  margin: 0 25%;
+  margin: 0 20%;
 }
 
 h1 {
@@ -132,6 +132,10 @@ img {
   width: 100%;
 }
 
+.img-size-professor {
+  padding: 20px;
+}
+
 .img-size-teachers {
   height: 20rem;
   padding: 20px;
@@ -160,6 +164,14 @@ img {
   display: flex;
   height: 32rem;
   margin: 5rem 0 3rem;
+}
+
+.no-width {
+  width: unset;
+}
+
+.margin-top-bottom {
+  margin: 40px 0;
 }
 
 .margin-left {
@@ -232,6 +244,10 @@ ul {
     display: block;
   }
 
+  .img-size-professor {
+    display: none;
+  }
+
   .img-size-teachers {
     display: none;
   }
@@ -294,7 +310,7 @@ ul {
   }
 
   .body-container {
-    margin: 0 5%;
+    margin: 0 12%;
   }
 }
 
