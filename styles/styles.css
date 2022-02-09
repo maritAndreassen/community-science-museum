@@ -71,6 +71,12 @@ a:active {
   justify-content: space-between;
 }
 
+.flex-container-spaces {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
 .flex-item-column {
   display: flex;
   flex-flow: column wrap;
@@ -129,6 +135,13 @@ img {
 .img-size-teachers {
   height: 20rem;
   padding: 20px;
+}
+
+.infobox-size {
+  border: 1px solid var(--grey);
+  padding: 12px;
+  margin: 20px 0;
+  width: 40%;
 }
 
 .info-section {
@@ -223,6 +236,11 @@ ul {
     display: none;
   }
 
+  .infobox-size {
+    padding: 30px;
+    width: unset;
+  }
+
   .margin-left-none {
     margin: 0;
   }
@@ -295,6 +313,6 @@ ul {
 
   .text-position {
     position: absolute;
-    padding: 6rem 25% 0 4rem;
+    padding: 6rem 28% 0 4rem;
   }
 }
