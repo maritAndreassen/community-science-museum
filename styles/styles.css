@@ -11,11 +11,11 @@
 
 body {
   font-family: "Open Sans", Verdana, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .body-container {
-  margin: 0 15%;
+  margin: 0 25%;
 }
 
 h1 {
@@ -68,7 +68,6 @@ a:active {
 .flex-container {
   display: flex;
   flex-direction: row;
-  padding: 10px;
   justify-content: space-between;
 }
 
@@ -79,6 +78,12 @@ a:active {
 }
 
 .flex-item-row {
+  display: flex;
+  flex-flow: row;
+  padding: 0 10px;
+}
+
+.footer-item-row {
   flex-flow: row;
   padding: 0 10px;
 }
@@ -99,10 +104,14 @@ footer {
   margin: 10px 0;
 }
 
+footer h2 {
+  font-style: italic;
+}
+
 .grey-background {
   background-color: var(--main-background-grey);
   box-shadow: 10px 10px 10px 30px var(--main-background-grey);
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 
 .grey-box {
@@ -117,6 +126,11 @@ img {
   width: 100%;
 }
 
+.img-size-teachers {
+  height: 20rem;
+  padding: 20px;
+}
+
 .info-section {
   background-image: url(/images/exhibition.jpg);
   background-size: cover;
@@ -124,6 +138,19 @@ img {
   display: flex;
   height: 32rem;
   margin: 5rem 0 3rem;
+}
+
+.info-sub {
+  background-image: url(/images/samuel-zeller-158996.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 32rem;
+  margin: 5rem 0 3rem;
+}
+
+.margin-left {
+  margin-left: 40px;
 }
 
 .margin-left-none {
@@ -157,6 +184,11 @@ i:focus {
   display: none;
 }
 
+.text-position {
+  position: absolute;
+  padding: 6rem 8rem 0 4rem;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
@@ -176,7 +208,7 @@ ul {
   }
 
   .body-container {
-    margin: 0;
+    margin: 0 2%;
   }
 
   .circle-info-box {
@@ -187,12 +219,20 @@ ul {
     display: block;
   }
 
+  .img-size-teachers {
+    display: none;
+  }
+
   .margin-left-none {
     margin: 0;
   }
 
   .main-headline {
     display: none;
+  }
+
+  figure {
+    margin: 0;
   }
 
   .flex-container {
@@ -203,11 +243,19 @@ ul {
     justify-content: space-between;
   }
 
+  .text-position {
+    text-align: center;
+    position: unset;
+    padding: 0;
+  }
+
   ul {
     text-align: center;
   }
 
-  p {
+  p,
+  b {
+    font-size: 0.85rem;
     text-align: center;
   }
 
@@ -218,7 +266,7 @@ ul {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .body-container {
-    margin: 0;
+    margin: 0 2%;
   }
 }
 
@@ -243,5 +291,10 @@ ul {
 
   h3 {
     font-size: 1rem;
+  }
+
+  .text-position {
+    position: absolute;
+    padding: 6rem 25% 0 4rem;
   }
 }

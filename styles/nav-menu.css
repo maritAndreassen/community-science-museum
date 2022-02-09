@@ -2,13 +2,14 @@
 
 nav a {
   color: var(--main-text-black);
-  padding: 1rem;
+  padding: 16px;
   text-decoration: none;
 }
 
 nav a:hover {
   border: 2px solid var(--main-text-black);
-  padding: 0.825rem;
+  padding: 14px;
+  font-weight: normal;
 }
 
 nav a:focus {
@@ -24,7 +25,6 @@ nav a:focus {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px 10px 0;
 }
 
 .nav-menu-icon {
@@ -33,7 +33,7 @@ nav a:focus {
 
 .nav-h1 {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: end;
 }
 
@@ -114,8 +114,10 @@ nav ul {
     flex-direction: column;
     justify-content: space-between;
   }
+}
 
-  .nav-seperator {
-    display: none;
+@media screen and (min-width: 1025px) {
+  .nav-h1 {
+    font-size: 1.5rem;
   }
 }
