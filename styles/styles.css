@@ -1,7 +1,6 @@
 @import "colors.css";
 @import "nav-menu.css";
 @import "button.css";
-@import "subpages.css";
 
 @font-face {
   font-family: "Open Sans";
@@ -85,12 +84,13 @@ a:active {
   width: 22rem;
 }
 
-.circle-info-content-padding {
+.content-padding {
   padding: 0 1rem;
 }
 
 .color-red {
   color: var(--red);
+  font-weight: bold;
 }
 
 .flex-container {
@@ -167,7 +167,7 @@ img {
   width: 100%;
 }
 
-.img-size-professor {
+.img-size-padding {
   padding: 20px;
 }
 
@@ -246,7 +246,7 @@ i:focus {
 
 .text-position {
   position: absolute;
-  padding: 6rem 8rem 0 4rem;
+  padding: 6rem 14rem 0 4rem;
 }
 
 ul {
@@ -324,6 +324,10 @@ ul {
     justify-content: space-between;
   }
 
+  .footer-item-row li {
+    padding: 5px 0;
+  }
+
   .text-position {
     text-align: center;
     position: unset;
@@ -348,6 +352,11 @@ ul {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .body-container {
     margin: 0 2%;
+  }
+
+  .text-position {
+    position: absolute;
+    padding: 6rem 8rem 0 4rem;
   }
 }
 
