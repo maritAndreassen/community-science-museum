@@ -37,7 +37,6 @@ a {
 
 a:hover {
   font-weight: bold;
-  padding: 0 2.5px 0 0;
 }
 
 a:focus {
@@ -140,6 +139,10 @@ footer {
 
 footer h2 {
   font-style: italic;
+}
+
+.footer-item-row li {
+  padding: 5px 0;
 }
 
 .grey-background {
@@ -322,10 +325,6 @@ ul {
 
   .flex-item-column {
     justify-content: space-between;
-  }
-
-  .footer-item-row li {
-    padding: 5px 0;
   }
 
   .text-position {
