@@ -4,8 +4,8 @@
 
 @font-face {
   font-family: "Open Sans";
-  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+  src: url("/fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("woff2"),
+    url("/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("woff");
 }
 
 body {
