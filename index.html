@@ -16,7 +16,9 @@
       <header>
         <nav>
           <div class="nav-flex-container">
-            <i class="fas fa-bars nav-menu-icon" aria-haspopup="true" aria-label="menu icon"></i>
+            <a aria-label="Open the menu" class="no-a-styling" aria-haspopup="true">
+              <i class="fas fa-bars nav-menu-icon" aria-hidden="true"></i>
+            </a>
             <h1 class="nav-h1">COMMUNITY <br />SCIENCE MUSEUM</h1>
           </div>
           <div class="nav-flex-content">
@@ -33,7 +35,7 @@
         </nav>
       </header>
       <main id="content">
-        <section class="flex-container">
+        <div class="flex-container">
           <figure class="margin-left-none">
             <img
               src="images/scientific-main-page.jpg"
@@ -41,12 +43,10 @@
             />
           </figure>
           <div class="flex-item-column">
-            <section>
-              <p>
-                Come join us at the Community Science Museum where we’re committed to making science
-                accessible to all.
-              </p>
-            </section>
+            <p>
+              Come join us at the Community Science Museum where we’re committed to making science
+              accessible to all.
+            </p>
             <section>
               <h2>OPENING HOURS</h2>
               <p>
@@ -55,26 +55,26 @@
               </p>
             </section>
           </div>
-        </section>
+        </div>
         <section class="grey-background">
           <h2>SPECIAL EVENTS & EXHIBITIONS</h2>
           <div class="flex-container flex-item-row">
             <figure>
               <a href="/pages/events.html">
                 <img src="images/night-at-the-museum.jpg" alt="The museum by night" />
-                <figcaption>Night at the museum</figcaption>
+                <p>Night at the museum</p>
               </a>
             </figure>
             <figure>
               <a href="/pages/events.html">
                 <img src="images/skelleton.jpg" alt="Energetica Exhibition" />
-                <figcaption>Energetica Exhibition on Loan</figcaption>
+                <p>Energetica Exhibition on Loan</p>
               </a>
             </figure>
             <figure>
               <a href="/pages/events.html">
                 <img src="images/visiting-professor.jpg" alt="Visiting Professor" />
-                <figcaption>Visiting Professor of Aeronautics</figcaption>
+                <p>Visiting Professor of Aeronautics</p>
               </a>
             </figure>
           </div>
